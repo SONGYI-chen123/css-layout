@@ -12,3 +12,100 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+.myheader{
+    margin: 0px;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+}
+
+.myheader img{
+    float: left;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.myheader h1{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-weight:bolder;
+    font-size: 40px;
+    margin-left: 580px;
+}
+.myheader nav{
+   float: right;
+   padding-top: 30px;
+   padding-left: 300px;
+}
+
+.myheader li{
+    display: inline;
+    padding-right: 20px;
+
+}
+
+.myheader li a{
+    color: white;
+    text-decoration: none;
+}
+
+.mymain{
+    padding-top: 70px;
+}
+
+.description{
+    background-color: #dddddd;
+}
+
+.description img{
+    padding: 60px;
+    float: left;
+    height: 400px;
+    width: 400px;
+}
+.description h2{
+    padding-top: 80px;
+    font-weight: 800;
+}
+
+.description-p1{
+    padding-right: 60px;
+}
+
+.description-p2{
+    clear: both;
+    padding-top: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+}
+
+.relationship{
+    padding-left: 60px;
+}
+
+.relationship img{
+    padding: 60px;
+    float: right;
+    height: 400px;
+    width: 400px;
+}
+
+.relationship h2{
+    padding-top: 20px;
+}
+
+.myfooter{
+    background-color: gray;
+    clear: both;
+    height: 90px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height:100px;
+}
